@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 用户配置（包含API Key，勿上传）
+user_config.json
+
+# 数据库和输出文件
+*.db
+output/
+文献_分类/
+
+# 知识图谱临时文件
+graph_*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 虚拟环境
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
